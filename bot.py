@@ -5,7 +5,7 @@ import logging
 
 
 logging.basicConfig(level=logging.INFO)
-bot=Bot(token="6111209465:AAFyTvnZlrUA_iGBmf545eUMpR2qLhC04fc")
+bot=Bot(token="bot token yoz ")
 dp=Dispatcher(bot)
 
 @dp.message_handler(commands='start')
